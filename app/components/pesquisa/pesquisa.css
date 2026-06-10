@@ -1,0 +1,7 @@
+.pesquisa {
+    display: flex;             /* Alinha os itens internos em linha */
+    background-color: #ffffff; /* Dá a cor de fundo ao retângulo */
+    height: 60px;              /* Define a altura do retângulo */
+    width: 100%;               /* Faz o retângulo ocupar a largura toda da tela */
+    border-bottom: 1px solid #e0e0e0; /* Cria uma linha sutil embaixo */
+}
