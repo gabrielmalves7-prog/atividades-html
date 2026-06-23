@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <Pesquisa className="font-geisSans">
+      <Pesquisa className="font-geisSans; text-white; font-bold">
         <Link href="/form">Formulário</Link>
         <Link href="/test">Test</Link>
       </Pesquisa>
