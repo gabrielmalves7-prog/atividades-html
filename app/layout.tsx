@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className="{`${geistSans.variable} ${geistMono.variable} h-full antialiased`}; gap-8"
     >
       <Pesquisa className="font-geisSans; text-white; font-bold">
         <Link href="/form">Formulário</Link>
