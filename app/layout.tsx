@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import dynamic from 'next/dynamic';
-import Link from 'next/link'
+import Link from 'next/link';
 
-const Pesquisa = dynamic(() => import('./components/pesquisa'))
+const Pesquisa = dynamic(() => import('./components/pesquisa'));
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,14 +29,17 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="{`${geistSans.variable} ${geistMono.variable} h-full antialiased`}; gap-8"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <Pesquisa className="font-geisSans; text-white; font-bold">
-        <Link href="/form">Formulário</Link>
-        <Link href="/test">Test</Link>
-      </Pesquisa>
+      <body className="min-h-full flex flex-col">
+        {/* O componente Pesquisa agora está dentro do body */}
+        <Pesquisa className="text-white font-bold">
+          <Link href="/form">Formulário</Link>
+          <Link href="/test">Test</Link>
+        </Pesquisa>
 
-      <body className="min-h-full flex flex-col">{children}</body>
+        {children}
+      </body>
     </html>
   );
 }
