@@ -14,7 +14,8 @@ interface PesquisaProps {
 function Pesquisa({ children, className }: PesquisaProps) {
   return (
     <header className={cn("w-full bg-black border-b border-gray-200 shadow-sm", className)}>
-      <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      {/* Removemos max-w-7xl e mx-auto, mantendo apenas o flex e o padding lateral */}
+      <nav className="w-full flex items-center justify-between px-6 py-4">
         {/* Substituímos o <br> por uma estrutura mais limpa. 
             Seu logo ou título do site pode vir aqui à esquerda */}
         <div className="text-xl font-bold text-white">Logo</div> 
