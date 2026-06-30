@@ -37,8 +37,9 @@ export default function RootLayout({
           <Link href="/form">Formulário</Link>
           <Link href="/test">Test</Link>
         </Pesquisa>
-
-        {children}
+        <div className="mt-8">
+          {children}
+        </div>
       </body>
     </html>
   );
