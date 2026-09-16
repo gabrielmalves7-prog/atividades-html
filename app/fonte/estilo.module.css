@@ -1,4 +1,5 @@
-:global(p) {
+.texto {
     color: #ff7b00;
     font-family: "Roboto", "Arial, sans-serif";
+    font-size: 20px;
 }

@@ -6,7 +6,7 @@ export default function page() {
   return (
     <html>
         <body>
-          <p>
+          <p className={estilo.texto}>
             Eai galerinha do Youtube!
           </p>
         </body>
