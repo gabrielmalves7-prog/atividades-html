@@ -18,7 +18,7 @@ function Pesquisa({ children, className }: PesquisaProps) {
       <nav className="w-full flex items-center justify-between px-6 py-4">
         {/* Substituímos o <br> por uma estrutura mais limpa. 
             Seu logo ou título do site pode vir aqui à esquerda */}
-        <div className="text-xl font-bold text-white">Logo</div> 
+        <div className="text-xl font-bold text-white">Atividades HTML & CSS</div> 
         
         {/* Os links que vêm do children se alinharão à direita */}
         <div className="flex gap-4">
