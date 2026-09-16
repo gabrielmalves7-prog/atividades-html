@@ -15,8 +15,7 @@ export default function page() {
             Eai galerinha do Youtube!
           </p>
 
-          <blockquote className={estilo.torto}>Esse canal é muito legal</blockquote>
-          
+          <a href="https://www.youtube.com/@osnerdsferrados">Link do Canal!</a>
         </div> </body>
     </html>
   )

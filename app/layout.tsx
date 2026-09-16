@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         {/* O componente Pesquisa agora está dentro do body */}
         <Pesquisa className="text-white font-bold">
-          <Link href="/fonte">10.1</Link>
+          <Link href="/fonte">10.1-10</Link>
         </Pesquisa>
         <div className="mt-8">
           {children}

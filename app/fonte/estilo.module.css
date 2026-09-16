@@ -2,14 +2,24 @@
     color: #ff7b00;
     font-family: "Roboto", "Arial, sans-serif";
     font-size: 20px;
+    line-height: 150%;
 }
 
 .texto h3 {
     font-size: 2rem;
+    word-spacing: 0.2em;
 }
 
+.texto h2 {
+    text-transform: uppercase;
+}
+
+.texto a {
+    color: #ff7b00;
+}
 .destaque span {
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .torto blockquote {
