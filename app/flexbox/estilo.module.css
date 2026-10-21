@@ -10,10 +10,12 @@
     flex-grow: 1;
     background-color: blueviolet;
     height: 30px;
+    max-width: 60px;
 }
 
 .divfilho2 {
     flex-grow: 2;
     background-color: blue;
     max-height: 60px;
+    max-width: 60px;
 }
