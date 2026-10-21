@@ -1,9 +1,16 @@
 .divpai {
     display: flex;
     background-color: brown;
+    height: 60px;
 }
 
 .divfilho {
     flex-grow: 1;
     background-color: blueviolet;
+    height: 30px;
+}
+
+.divfilho2 {
+    flex-grow: 2;
+    background-color: blue;
 }

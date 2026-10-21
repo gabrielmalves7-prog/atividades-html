@@ -16,7 +16,7 @@ export default function page() {
                     <p>Salve</p>
                 </div>
 
-                <div className={estilo.divfilho}>
+                <div className={estilo.divfilho2}>
                     <p>Oi</p>
                 </div>
 
