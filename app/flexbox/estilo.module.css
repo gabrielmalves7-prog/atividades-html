@@ -9,9 +9,11 @@
 .divfilho {
     flex-grow: 1;
     background-color: blueviolet;
+    border: 1px black;
 }
 
 .divfilho2 {
     flex-grow: 2;
     background-color: blue;
+    border: 1px black;
 }
