@@ -1,0 +1,9 @@
+.divpai {
+    display: flex;
+    background-color: brown;
+}
+
+.divfilho {
+    flex-grow: 1;
+    background-color: blueviolet;
+}
